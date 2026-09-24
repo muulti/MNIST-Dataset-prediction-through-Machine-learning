@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MNIST Neural Network Demo</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main>
+    <h1>MNIST Neural Network</h1>
+
+    <canvas id="grid" width="28" height="28"></canvas>
+
+    <div class="buttons">
+      <button id="predict">Predict</button>
+      <button id="clear">Clear</button>
+    </div>
+
+    <h2 id="prediction">Draw a digit</h2>
+
+    <div id="probs"></div>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
